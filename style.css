@@ -6,8 +6,22 @@ body{
 
 section{
     background-color: rgb(46, 19, 194);
-    padding-bottom: 80 px;
-    padding-top: 80 px;
+    padding-bottom: 80px;
+    padding-top: 80px;
     display: flex;
     justify-content: center;
+}
+
+.chamada-texto{
+    margin-right: 5%;
+}
+
+img{
+    height: 200px;
+}
+
+.categoria-videos{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
 }
